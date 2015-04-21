@@ -4,10 +4,11 @@ import android.app.Activity
 import android.os.Bundle
 import android.view.Gravity
 import kotlinx.android.anko.*
+import kotlin.properties.Delegates as D
 
 class DebugActivity : Activity() {
 
-    val pad = dip(10)
+    val pad by D.lazy { dip(10) }
 
     override fun onCreate(b: Bundle?) {
         super.onCreate(b)
