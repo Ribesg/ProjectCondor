@@ -33,6 +33,10 @@
               android:name=".activity.ConfigActivity"
               android:label="@string/app_name"/>
 
+      <activity
+              android:name=".activity.ListAdapterDemoActivity"
+              android:label="@string/app_name"/>
+
    </application>
 
 </manifest>

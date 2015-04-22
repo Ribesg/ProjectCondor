@@ -40,6 +40,10 @@ class DebugActivity : Activity() {
             button("Config").onClick {
                 startActivity<ConfigActivity>()
             }
+
+            button("ListAdapter Demo").onClick {
+                startActivity<ListAdapterDemoActivity>()
+            }
         }
     }
 }
