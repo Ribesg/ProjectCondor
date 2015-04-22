@@ -13,6 +13,8 @@ class DebugActivity : Activity() {
     override fun onCreate(b: Bundle?) {
         super.onCreate(b)
 
+        getActionBar().hide()
+
         verticalLayout {
 
             paddingLeft = pad
