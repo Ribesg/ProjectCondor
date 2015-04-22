@@ -1,5 +1,6 @@
 package tmp.project.condor
 
+import android.content.Context
 import android.widget.TextView
 
 /**
@@ -11,3 +12,5 @@ public fun TextView.setTextStyle(style: Int) {
 }
 
 public fun Int.abs(): Int = Math.abs(this)
+
+public inline fun <T> Context.dsl(f: Context.() -> T): T = this.let { it.f() }
