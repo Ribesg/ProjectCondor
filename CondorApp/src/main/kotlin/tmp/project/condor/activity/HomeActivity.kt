@@ -1,4 +1,4 @@
-package tmp.project.condor
+package tmp.project.condor.activity
 
 import android.app.Activity
 
